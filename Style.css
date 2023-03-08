@@ -1,0 +1,523 @@
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            height: 80px;
+            background-color: black;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+        #hed1{
+            color: white;
+            width: 321px;
+            height: 40px;
+        }
+        #imgH{
+            height: 60px;
+            width: 50px;
+        }
+        #nav{
+            height: 800px;
+            width: 100%;
+            background-image: url("/Pic/Children.jpeg");
+            background-size: 100vw 800px;
+            background-repeat: no-repeat;
+            opacity: 0.9;
+        }
+        #navbar{
+            display: flex;
+            justify-content: space-evenly;
+            height: 116px;
+            width: 100%;
+        }
+        #left {
+            height: 70px;
+            display: flex;
+            margin-left: 40px;
+            margin-top: 25px;
+            width: 238px;
+        }
+        #left img{
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+        }
+        #left h1{
+            margin-left: 60px;
+            margin-top: 0px;
+            padding-top: 0;
+            font-family: "Sofia", sans-serif;
+            color: #f7bbbb;
+            font-size: 40px;
+        }
+        #nav ul{
+            display: flex;
+            height: 65px;
+            width: 705px;
+            margin-top: 42px;
+        }
+        #nav ul li{
+            list-style: none;
+            font-size: 20px;
+            font-family: "Trirong", serif;
+        }
+        #nav ul li a{
+            display: block;
+            list-style: none;
+            color: white;
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+        #nav ul li a:hover{
+            color: #f3e308;
+        }
+        #nav button{
+            background: #f7bbbb;
+            display: flex;
+            height: 70px;
+            width: 210px;
+            margin-right: 50px;
+            margin-top: 30px;
+            color: white;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        #nav button:hover{
+            background-color: initial;
+            border: 1px solid white;
+        }
+        #nav h2#head2{
+            color: white;
+            font-size: 50px;
+            font-family: "Trirong", serif;
+            margin-left: 110px;
+        }
+        #nav h2#head3{
+            color: white;
+            font-size: 25px;
+            font-family: "Trirong", serif;
+            margin-left: 110px;
+        }
+        #nav button#btn2{
+            background-color: #f7bbbb;
+            height: 70px;
+            width: 210px;
+            color: white;
+            font-size: 20px;
+            border: none;
+            margin-left: 110px;
+            float: left;
+        }
+        #nav button#btn2:hover{
+            background: initial;
+            border: 1px solid white;
+        }
+        .Vitamin{
+            height:450px;
+            width: 100%;
+            background-color: #adacaa;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .img2 {
+            height: 320px;
+            width: 531px;
+        }
+        .Vitamin img{
+            height: 300px;
+            width: 521px;
+            float: left;
+            box-shadow: 0 8px 8px 8px rgb(4 55 60), 0 12px 20px 0 rgb(4 55 60);
+            border-radius: 10px;
+        }
+        .Vitamin button#btn3{
+            background-color: #717171;
+            height: 63px;
+            width: 170px;
+            color: white;
+            font-size: 17px;
+            border: none;
+            border-radius: 40px;
+        }
+        .Vitamin button#btn3:hover{
+            background: initial;
+            border: 2px solid #717171;
+            color: #717171;
+        }
+        .program button#btn4{
+            background: initial;
+            border: 2px solid #3e3737;
+            color: #3e3737;
+            height: 62px;
+            width: 170px;
+            font-size: 17px;
+            margin: 0px 0px 0px 20px;
+            border-radius: 40px;
+        }
+        .program button#btn4:hover{
+            background-color: #717171;
+            color: white;
+            border: none;
+        }
+        .program{
+            height: 300px;
+            width: 521px;
+        }
+        #p1{
+            display: inline;
+            color: rgb(9, 145, 145);
+        }
+        .program h1{
+            display: inline;
+            color: #384756;
+            font-family: Arial Narrow;
+        }
+        .program #p2{
+            color: #313335;
+            font-family: Arial Narrow;
+        }
+        /* Flood section is Here including videos */
+        .flood{
+            margin-top: 60px;
+            background-color: #adacaa;
+            height: 750px;
+            width: 100%;
+        }
+         .hed{
+            height: 150px;
+            width: 100%;
+            display: flex;
+            margin: 0px 0px 0px 0px;
+            text-align: center;
+            justify-content: center;
+            color: white;
+        }
+        #videos {
+            height: 700px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #Video1{
+            height: 275px;
+            width: 500px;
+        }
+        #Video2{
+            height: 275px;
+            width: 500px;
+        }
+        #activity{
+            height:450px;
+            width: 100%;
+        }
+        .hed h1{
+            font-size: 50px;
+            font-family: Arial Narrow;
+        }
+        .active{
+            height: 550px;
+            width: 521px;
+        }
+        #activity1{
+            background-color: white;
+            padding: 15px 0px 0px 11px;
+            box-shadow: 0 8px 8px 8px rgb(61 74 76), 0 12px 20px 0 rgb(61 74 76);
+            border-radius: 10px;
+        }
+        #activity2{
+            background-color: white;
+            padding: 15px 0px 0px 11px;
+            box-shadow: 0 8px 8px 8px rgb(61 74 76), 0 12px 20px 0 rgb(61 74 76);
+            border-radius: 10px;
+        }
+        #activity1 h1{
+            font-family: Arial Narrow;
+            font-size: 30px;
+            height: 50px;
+            width: 453px;
+            display: inline-block;
+            margin: 0px 0px 0px 0px;
+        }
+        #activity1 p{
+            display: inline-block;
+            font-family: Arial Narrow;
+            font-size: 20px;
+            margin: 0px 0px 0px 0px;
+        }
+        #activity2 h1{
+            font-family: Arial Narrow;
+            font-size: 30px;
+            height: 50px;
+            width: 453px;
+            display: inline-block;
+            margin: 0px 0px 0px 0px;
+        }
+        #activity2 p{
+            display: inline-block;
+            font-family: Arial Narrow;
+            font-size: 20px;
+            margin: 0px 0px 0px 0px;
+        }
+        .programs{
+            display: flex;
+            margin-top: 100px;
+            height: 650px;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .pro{
+            height: 600px;
+            width: 372px;
+            display: inline-block;
+            background-color: #adacaa;
+            border-radius: 10px;
+            box-shadow: 0 8px 8px 8px rgb(61 74 76), 0 12px 20px 0 rgb(61 74 76);
+        }
+        .pro img{
+            height: 250px;
+            width: 372px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        #prog1{
+            border-radius: 10px;
+        }
+        #prog2{
+          border-radius: 10px;
+        }
+        #prog3{
+            border-radius: 10px;
+        }
+        #prog1 h1{
+            font-family: Arial Narrow;
+            font-size: 20px;
+            height: 34px;
+            width: 453px;
+            display: inline-block;
+            margin: 10px 0px 0px 23px;
+        }
+        #prog1 p{
+            display: inline-block;
+            font-family: Arial Narrow;
+            font-size: 15px;
+            margin: 0px 0px 0px 23px;
+        }
+        #prog1 h2{
+            color: rgb(235 20 20);
+            font-family: Arial Narrow;
+            margin: 0px 0px 0px 23px;
+        }
+        #prog1 #para{
+            font-size: 25px;
+        }
+        .pro button{
+            background-color: #717171;
+            height: 63px;
+            width: 170px;
+            color: white;
+            font-size: 25px;
+            border: none;
+            border-radius: 40px;
+            margin: 40px 0px 0px 85px;
+        }
+        .pro button:hover{
+            background: initial;
+            border: 2px solid #717171;
+            color: #717171;
+        }
+        #prog2 h1{
+            font-family: Arial Narrow;
+            font-size: 20px;
+            height: 34px;
+            width: 453px;
+            display: inline-block;
+            margin: 10px 0px 0px 23px;
+        }
+        #prog2 p{
+            display: inline-block;
+            font-family: Arial Narrow;
+            font-size: 15px;
+            margin: 0px 0px 0px 23px;
+        }
+        #prog2 h2{
+            color: rgb(235 20 20);
+            font-family: Arial Narrow;
+            margin: 0px 0px 0px 23px;
+        }
+        #prog2 #para{
+            font-size: 25px;
+        }
+        #prog3 h1{
+            font-family: Arial Narrow;
+            font-size: 20px;
+            height: 34px;
+            width: 453px;
+            display: inline-block;
+            margin: 10px 0px 0px 23px;
+        }
+        #prog3 p{
+            display: inline-block;
+            font-family: Arial Narrow;
+            font-size: 15px;
+            margin: 0px 0px 0px 23px;
+        }
+        #prog3 h2{
+            color: rgb(235 20 20);
+            font-family: Arial Narrow;
+            margin: 0px 0px 0px 23px;
+        }
+        #prog3 #para{
+            font-size: 25px;
+        }
+        /* Here is helping program details  */
+        .help{
+            width: 100vw;
+            height: 865px;
+            background-color: #adacaa;
+        }
+        #helped {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100vw;
+            height: 800px;
+        }
+        .help h1{
+            color: white;
+            font-family: Arial Narrow;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        .help p{
+            display: inline-block;
+            margin: 150px 0px 0px 533px;
+            color: white;
+            font-family: Arial Narrow;
+            font-size: 15px;
+        }
+        .help1{
+            height: 500px;
+            width: 300px;
+            box-shadow: 0 8px 8px 8px rgb(61 74 76), 0 12px 20px 0 rgb(61 74 76);
+            border-radius: 10px;
+        }
+        .help1 img{
+            height: 100px;
+            width: 100px;
+            border-radius: 60px;
+            margin: 10px 0px 0px 90px;
+        }
+        #hel1 h1{
+            color: white;
+            font-family: Arial Narrow;
+            font-size: 30px;
+            display: inline-block;
+            margin: 35px 0px 0px 85px;   
+        }
+        #hel1 p{
+            margin: 40px 0px 0px 45px;   
+        }
+        #hel2 h1{
+            color: white;
+            font-family: Arial Narrow;
+            font-size: 30px;
+            display: inline-block;
+            margin: 35px 0px 0px 33px;   
+        }
+        #hel2 p{
+            margin: 35px 0px 0px 57px;   
+        }
+        #hel3 h1{
+            color: white;
+            font-family: Arial Narrow;
+            font-size: 30px;
+            display: inline-block;
+            margin: 35px 0px 0px 80px;   
+        }
+        #hel3 p{
+            margin: 35px 0px 0px 57px;   
+        }
+        #Map{
+            text-align: center;
+            font-size: 25px;
+            color: rgb(250 98 63);
+        }
+        #location{
+            align-items: center;
+            width: 100vw;
+            height: 400px;
+        }
+        .detail{
+            height:450px;
+            width: 100%;
+            background-color: #043d6d;
+        }
+        .inform img{
+            height: 50px;
+            width: 50px;
+            float: left;
+            border-radius: 10px;
+        }
+        .inform h1{
+            margin-left: 60px;
+            margin-top: 0px;
+            padding-top: 0;
+            font-family: "Sofia", sans-serif;
+            color: white;
+            font-size: 40px;
+        }
+        #info1{
+            /* display: inline-block; */
+            /* position: relative; */
+            height: 55%;
+            width: 30%;
+            margin: 7% 0% 0% 10%;
+            float: left;
+        }
+        #info1 p{
+            color: white;
+        }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+          }
+          .fa:hover {
+              opacity: 0.7;
+          }
+          .fa-facebook {
+            color: white;
+          }
+          .fa-twitter {
+            color: white;
+          }
+          .fa-dribbble {
+            color: white;
+          }
+          .fa-instagram {
+            color: white;
+          }
+          #info2{
+            height: 55%;
+            width: 30%;
+            margin: 9% 0% 0% 10%;
+            float: right;
+          }
+          #info2 h1{
+            font-family: Arial Narrow;
+            font-size: 25px;
+            margin: 0%;
+          }
+          #info2 .p1{
+              font-size: 20px;
+              font-family: Arial Narrow;
+              color: white;
+          }

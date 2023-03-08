@@ -1,0 +1,191 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+/* Nav Section is here  */
+header{
+    height: 34px;
+    width: 100%;
+    }
+#hed1{
+    font-size: 20px;
+    width: 194px;
+    height: 24px;
+}
+#imgH{
+    height: 30px;
+    width: 35px;
+}
+
+#nav{
+    height: 270px;
+    width: 100%;
+    background-size: 100vw 270px;
+}
+#navbar{
+    height: 30px;
+    width: 100%;
+}
+#left {
+    height: 26px;
+    margin-left: 9px;
+    margin-top: 3px;
+    width: 60px;
+}
+#left img{
+    height: 16px;
+    width: 17px;
+    border-radius: 5px;
+}
+#left h1{
+    margin-left: 3px;
+    font-size: 12px;
+}
+     /* Anchor tag  */
+     #nav ul{
+        height: 17px;
+        width: 195px;
+        margin: 7px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    #nav ul li{
+        font-size: 7px;
+    }
+    #nav ul li a{
+        padding: 0px 2px;
+    }
+      /* Button  */
+      #nav button{
+        height: 24px;
+        width: 60px;
+        margin: 3px 0px 0px 0px;
+        font-size: 6px;
+        border: none;
+        padding: 0px 0px 0px 0px;
+    }
+    #nav h2#head2{
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    #nav h2#head3{
+        font-size: 12px;
+        margin-left: 40px;
+    }
+    #nav button#btn2{
+        height: 30px;
+        width: 100px;
+        font-size: 10px;
+        border: none;
+        margin-left: 40px;
+    }
+    #nav button#btn2:hover{
+        background: initial;
+        border: 1px solid white;
+    }
+/* Vitamin Progrma */
+.Vitamin{
+    height:215px;
+    width: 100%;
+}
+.img2 {
+    height: 120px;
+    width: 180px;
+}
+.Vitamin img{
+    height: 93px;
+    width: 158px;
+    box-shadow: 0 3px 3px 1px rgb(4 55 60), 0 0px 1px 0 rgb(4 55 60);
+    border-radius: 10px;
+}
+#p1{
+    font-size: 7px;
+}
+.program h1{
+    font-size: 10px;
+}
+.program #p2{
+    font-size: 6px;
+}
+.Vitamin button#btn3{
+    height: 20px;
+    width: 55px;
+    font-size: 7px;
+    border-radius: 1px;
+}
+.program button#btn4{
+    border: 1px solid #3e3737;
+    height: 20px;
+    width: 62px;
+    font-size: 7px;
+    margin: 0px 0px 0px 7px;
+    border-radius: 1px;
+}
+.program{
+    height: 180px;
+    width: 150px;
+}
+/* Flood Activity */
+.flood{
+    margin-top: 60px;
+    height: 750px;
+    width: 100%;
+}
+ .hed{
+    height: 150px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+#videos {
+    height: 700px;
+    width: 100%;
+}
+#Video1{
+    height: 275px;
+    width: 500px;
+}
+#Video2{
+    height: 275px;
+    width: 500px;
+}
+#activity{
+    height:450px;
+    width: 100%;
+}
+.hed h1{
+    font-size: 50px;
+}
+.active{
+    height: 550px;
+    width: 521px;
+}
+#activity1{
+    padding: 15px 0px 0px 11px;
+    box-shadow: 0 8px 8px 8px rgb(61 74 76), 0 12px 20px 0 rgb(61 74 76);
+    border-radius: 10px;
+}
+#activity2{
+    padding: 15px 0px 0px 11px;
+    box-shadow: 0 8px 8px 8px rgb(61 74 76), 0 12px 20px 0 rgb(61 74 76);
+    border-radius: 10px;
+}
+#activity1 h1{
+    font-size: 30px;
+    height: 50px;
+    width: 453px;
+    margin: 0px 0px 0px 0px;
+}
+#activity1 p{
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+#activity2 h1{
+    font-size: 30px;
+    height: 50px;
+    width: 453px;
+    margin: 0px 0px 0px 0px;
+}
+#activity2 p{
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+  }
